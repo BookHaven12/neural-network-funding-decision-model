@@ -21,7 +21,7 @@ To complete this project, I cleaned and preprocessed the dataset, then built and
 
 ### Model Comparison:
 
-| Tests        | Key Changes Tested                                 | Accuracy | Loss |
+| Model       | Key Changes Tested                                 | Accuracy | Loss |
 |---------------|----------------------------------------------------|----------|------|
 | # 1        | Tuned layers, neurons, and activation using `keras_tuner` (`relu` vs. `selu`) | 73%  | 0.55 |
 | # 2        | Added `NAME` feature and manually optimized layers, neurons, and `relu` activations | 79% | 0.50 |

@@ -23,8 +23,8 @@ To complete this project, I cleaned and preprocessed the dataset, then built and
 
 | Tests        | Key Changes Tested                                 | Accuracy | Loss |
 |---------------|----------------------------------------------------|----------|------|
-| # 1        | Tuned layers, neurons, and activation using `keras_tuner` (`relu` vs. `selu`) | 73%  | 0.56 |
-| # 2        | Added `NAME` feature and manually optimized layers, neurons, and `relu` activations | 70% | 0.52 |
+| # 1        | Tuned layers, neurons, and activation using `keras_tuner` (`relu` vs. `selu`) | 73%  | 0.55 |
+| # 2        | Added `NAME` feature and manually optimized layers, neurons, and `relu` activations | 79% | 0.50 |
 | # 3 **(Best)** | Replaced `relu` with `LeakyReLU` in all hidden layers | **79%** | **0.47** |
 
 ### Summary

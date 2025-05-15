@@ -31,3 +31,6 @@ To complete this project, I cleaned and preprocessed the dataset, then built and
 After testing three neural network models with different configurations, the final model using `LeakyReLU` activation in the hidden layers achieved the best results with **79% accuracy** and the lowest loss of **0.47**. This exceeded the target model performance of 75%, indicating that the deep learning approach was effective.
 
 That said, since the dataset is made up of structured, tabular data with a mix of numeric and categorical features, I think it would be worth trying a different type of model next time. A **Random Forest** or **Gradient Boosting model** (like XGBoost) might be a better fit. These models usually handle this kind of data well, are easier to set up, and don’t require as much tuning. They could potentially train faster, offer better insights into which features matter most, and possibly improve accuracy even more.
+
+### Resources
+My tutor, Angel Mila, helped me troubleshoot my models and guided me toward reintroducing the `NAME` feature and grouping categories with fewer than five occurrences into an "Other" category. I also used ChatGPT to better understand the concepts and dive deeper into how different parts of the model worked.
